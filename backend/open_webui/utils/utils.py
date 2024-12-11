@@ -2,8 +2,9 @@ import logging
 import uuid
 import jwt
 
-from datetime import UTC, datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Optional, Union, List, Dict
+UTC = timezone.utc
 
 from open_webui.apps.webui.models.users import Users
 
